@@ -87,8 +87,8 @@ def generate_map(ip_data,output_file="ip_location_map.html") :
 def ip_geolocation_tracker() :
     """Main control flow of the IP geolocation tracker"""
     print("========= Welcome to the IP Geolocation Tracker ========= \n")
-    print("1️ Track your own IP (Enter 1)")
-    print("2️ Track another IP  (Enter 2)")
+    print("1️ Track your own IP ")
+    print("2️ Track another IP  ")
 
     while True:
         user_choice=input("Choose an option (1 or 2): ").strip()
